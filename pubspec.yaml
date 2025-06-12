@@ -7,8 +7,18 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  charset_converter: ^2.0.0
-  esc_pos_utils: ^1.1.0
+
+  charset_converter:
+    git:
+      url: https://github.com/nctpvtltdbutwal/charset_converter.git
+      ref: master # branch name
+      publish_to: none
+  esc_pos_utils:
+    git:
+      url: https://github.com/nctpvtltdbutwal/esc_pos_utils.git
+      ref: master # branch name
+      publish_to: none
+      
   flutter:
     sdk: flutter
   # esc_pos_utils:
